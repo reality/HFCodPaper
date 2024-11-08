@@ -1,0 +1,23 @@
+( /treatment/ /cod.+?/ )	CODING_MENTION
+( /diagnos.+?/ /cod.+?/ )	CODING_MENTION
+( /care/ /cod.+?/ )	CODING_MENTION
+( /clinical/ /cod.+?/ )	CODING_MENTION
+( /procedure/ /cod.+?/ )	CODING_MENTION
+( /diagnos.s/ /cod.+?/ )	CODING_MENTION
+( /billing/ /cod.+?/ )	CODING_MENTION
+( /read/ /cod.+?/ )	CODING_MENTION
+( /patient/ /cod.+?/ )	CODING_MENTION
+( /group/ /cod.+?/ )	CODING_MENTION
+billing data	CODING_MENTION
+( /system/ /cod.+?/ )	CODING_MENTION
+( /ccs/ /cod.+?/ )	CODING_MENTION
+( /residual/ /cod.+?/ )	CODING_MENTION
+( /icd/ /cod.+?/ )	CODING_MENTION
+( /ops/ /cod.+?/ )	CODING_MENTION
+( /modification/ /cod.+?/ )	CODING_MENTION
+( /administrative/ /cod.+?/ )	CODING_MENTION
+( /icd.(8|9|10)/ )	CODING_MENTION
+( /icd/ /(8|9|10)/ )	CODING_MENTION
+mesh	CODING_MENTION
+snomed	CODING_MENTION
+( /international/ /class.+?/ )	CODING_MENTION
